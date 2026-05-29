@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}SIGAD{% endblock %}</title>
+</head>
+<body>
+
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/publicaciones/">Publicaciones</a>
+        <a href="/eventos/">Eventos</a>
+        <a href="/usuarios/">Usuarios</a>
+    </nav>
+
+    <hr>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>

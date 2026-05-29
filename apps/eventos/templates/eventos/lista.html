@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Eventos</h1>
+
+{% for e in eventos %}
+    <h3>{{ e.nombre }}</h3>
+    <p>{{ e.fecha }} - {{ e.lugar }}</p>
+    <hr>
+{% endfor %}
+
+{% endblock %}
