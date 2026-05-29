@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-from usuarios.models import Usuario
+from apps.usuarios.models import Usuario
 
 class Categoria(models.Model):
     nombre = models.CharField(max_length=100)
